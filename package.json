@@ -10,7 +10,7 @@
     "busser",
     "middleware"
   ],
-  "git": "https://github.com/Hoekz/busser"
+  "git": "https://github.com/Hoekz/busser",
   "author": "James Hoekzema",
   "license": "ISC",
   "dependencies": {
