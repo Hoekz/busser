@@ -31,8 +31,8 @@ var busser = function(options){
     options.fieldname = options.fieldname || defaultFieldname;
     options.sizeLimit = options.sizeLimit || defaultSizeLimit;
     options.mimeReg = options.mimeReg || defaultMimeReg;
-    var finished = false;
     return function(req, res, next){
+        var finished = true;
         var bb = new BusBoy({
             headers: req.headers,
             limits: {
